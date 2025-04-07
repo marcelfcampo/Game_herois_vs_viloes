@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Isso aqui diz que estamos fazendo uma página de internet -->
+
+<html lang="pt-BR">
+<!-- Aqui começa a nossa página. Estamos dizendo que ela está em português do Brasil -->
+
+<head>
+    <!-- Aqui é a parte da "cabeça" da página, onde colocamos coisas importantes que não aparecem direto -->
+    <meta charset="UTF-8" />
+    <!-- Diz que vamos usar letrinhas especiais, como acentos e ç -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Isso faz a página ficar bonita no celular também -->
+
+    <title>Jogo Heróis vs Vilões</title>
+    <!-- Esse é o nome que vai aparecer lá em cima da aba do navegador -->
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Aqui a gente liga o nosso "livro de roupas" chamado style.css, que deixa a página bonitona -->
+</head>
+
+<body>
+    <!-- Aqui começa o corpo da página, que é onde tudo aparece -->
+
+    <div class="container">
+        <!-- Essa é uma caixinha que guarda tudo do nosso joguinho -->
+
+        <h1>⚔️ Heróis vs Vilões</h1>
+        <!-- Um título bem grandão pro nosso jogo, com uma espadinha! ⚔️ -->
+
+        <p>Digite o nome dos seus três heróis:</p>
+        <!-- Um recado dizendo o que a pessoa precisa fazer -->
+
+        <div class="input-group">
+            <!-- Mais uma caixinha pra guardar as caixas de escrever -->
+
+            <input type="text" id="heroi1" placeholder="Herói 1" />
+            <!-- Primeira caixinha pra escrever o nome do herói -->
+            <input type="text" id="heroi2" placeholder="Herói 2" />
+            <!-- Segunda caixinha -->
+            <input type="text" id="heroi3" placeholder="Herói 3" />
+            <!-- Terceira caixinha -->
+        </div>
+
+        <button onclick="startGame()">Jogar</button>
+        <!-- Esse é o botão que a gente aperta pra começar a brincadeira! -->
+
+        <div id="resultado" class="resultado"></div>
+        <!-- Um lugarzinho vazio que vai mostrar quem ganhou ou o que aconteceu -->
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Aqui a gente chama um arquivo mágico que faz as coisas se mexerem e acontecerem (o script.js) -->
+</body>
+
+</html>

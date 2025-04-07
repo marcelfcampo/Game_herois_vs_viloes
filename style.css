@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Fundo com gradiente escuro indo da esquerda para a direita */
+  font-family: 'Segoe UI', sans-serif; /* Define a fonte principal do texto */
+  color: #fff; /* Cor do texto em branco */
+  text-align: center; /* Centraliza o texto */
+  padding: 50px; /* Espaçamento interno em toda a volta do body */
+  margin: 0; /* Remove margens padrão do body */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.05); /* Fundo branco com bastante transparência */
+  padding: 40px; /* Espaçamento interno generoso */
+  border-radius: 20px; /* Bordas arredondadas para suavizar o visual */
+  max-width: 600px; /* Largura máxima do container */
+  margin: auto; /* Centraliza horizontalmente na tela */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Sombra ao redor para dar profundidade */
+}
+
+.input-group input {
+  margin: 10px 5px; /* Espaço ao redor dos inputs */
+  padding: 10px; /* Espaço interno nos inputs */
+  font-size: 16px; /* Tamanho da fonte dos inputs */
+  width: 30%; /* Define largura proporcional (pode ser ajustado conforme o número de inputs) */
+  border-radius: 10px; /* Bordas arredondadas */
+  border: none; /* Remove borda padrão */
+}
+
+button {
+  background-color: #ffcc00; /* Cor de fundo amarelo vibrante */
+  border: none; /* Remove borda padrão */
+  padding: 15px 30px; /* Espaçamento interno (altura e largura) */
+  font-size: 18px; /* Tamanho da fonte do botão */
+  border-radius: 10px; /* Bordas arredondadas */
+  cursor: pointer; /* Muda o cursor para indicar clicável */
+  margin-top: 20px; /* Espaço acima do botão */
+  transition: background-color 0.3s; /* Animação suave ao mudar a cor de fundo */
+}
+
+button:hover {
+  background-color: #e6b800; /* Cor mais escura quando o botão é passado com o mouse */
+}
+
+.resultado {
+  margin-top: 30px; /* Espaço acima do resultado */
+  font-size: 18px; /* Tamanho da fonte */
+  line-height: 1.6; /* Altura entre linhas para melhor leitura */
+  background: rgba(255, 255, 255, 0.08); /* Fundo translúcido mais visível que o container */
+  padding: 20px; /* Espaço interno do box de resultado */
+  border-radius: 10px; /* Bordas arredondadas */
+}

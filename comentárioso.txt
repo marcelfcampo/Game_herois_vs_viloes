@@ -1,0 +1,25 @@
+O trecho document.getElementById("heroi1").value.trim() em JavaScript faz o seguinte:
+
+document.getElementById("heroi1"): acessa o elemento HTML com o id="heroi1".
+
+.value: pega o valor atual desse elemento (por exemplo, o texto digitado em um <input> ou <textarea>).
+
+.trim(): remove os espaços em branco no início e no final do valor.
+
+Exemplo de uso:
+Suponha que você tenha o seguinte HTML:
+
+html
+Copiar
+Editar
+<input type="text" id="heroi1" />
+E o seguinte JavaScript:
+
+javascript
+Copiar
+Editar
+const nomeHeroi = document.getElementById("heroi1").value.trim();
+console.log(nomeHeroi);
+Se o usuário digitar " Batman ", o console.log(nomeHeroi) vai mostrar apenas "Batman" (sem os espaços).
+
+Se você estiver com alguma dúvida específica sobre isso ou quiser que essa linha faça algo mais, me avisa!
